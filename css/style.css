@@ -1,0 +1,259 @@
+@font-face{
+    font-family: 'Nexa';
+    src: url(../fonts/Nexa_Book-webfont.woff2);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa_Heavy-webfont.woff2');
+    font-weight: 800;
+}
+
+body{
+    font-family: 'Nexa', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+input{
+    outline: none;
+}
+
+nav, .login, .rest-container{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav .logo, #white-logo{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+nav ul{
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    color: #D3D2D2;
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;    
+    color: #EE6363;
+}
+
+.register{
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color, color 0.5s linear;
+}
+
+.register:hover{
+    background-color: #EE6363;
+    color: white;
+}
+
+.login form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #EE6363;
+    border-radius: 50px;
+}
+
+.login form h1{
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.btn{
+    background-color: #EE6363;
+    transition: background-color, color 0.5s linear;
+    color: white;
+}
+
+.login form input{
+    display: block;
+    margin-top: 30px;
+    font-size: 1rem;
+    padding: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.login form p, .login form p a{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.bg-img{
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: #EE6363;
+}
+
+.whitetext{
+    color: white;
+}
+
+.whiteborder{
+    border: 2px solid white;
+    transition: background-color 0.5s linear;
+}
+
+.whiteborder:hover{
+    background-color: white;
+    color: #EE6363;
+}
+
+.left{
+    width: 35%;
+    order: 1;
+}
+
+.right{
+    width: 35%;
+    order: 2;
+}
+
+.ui{
+    max-height: 400px;
+    height: auto;
+    width: auto;    
+}
+
+.center{
+    text-align: center;
+}
+
+.row, .download{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center; 
+}
+
+.row{
+    background: white;
+    margin-bottom: 250px;
+    height: 250px;  
+}
+
+.download{
+   
+    margin-bottom: 100px;
+}
+
+.icon{
+    max-height: 60px;
+    height: auto;
+    width: auto
+}
+
+.apple, .android{
+    max-width: 50%;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.container h1{
+    color: #EE6363;
+}
+
+.container p{
+    color: rgb(126, 121, 121);
+}
+
+/*
+.row, .row div{
+    border: 2px solid black;
+}
+*/
+
+footer div{
+    width: 50%;
+    text-align: center;
+    /*
+    border: 2px solid black;
+    */
+}
+
+footer div img{
+    max-height: 20px;
+    height: auto;
+    width: auto;
+    margin: 15px;
+}
+
+.rest-container h1{
+    margin-top: 50px;
+    text-align: center;
+    color: #5E5B5B;
+}
+
+#restList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+#white-logo a{
+    color: white;
+    text-decoration: none;
+}
+
+#bg-img{
+    background-color: #EE6363;
+}
