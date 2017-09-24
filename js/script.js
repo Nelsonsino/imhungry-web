@@ -100,3 +100,27 @@ $(document).ready(function(){
         addRest(restArray[i])
     }
 })
+
+$('#add-form').submit(function(e){
+    e.preventDefault()
+
+    var newRestaurant = {
+        name: $('#restName').val(),
+        type: $('#type').val(),
+        address: $('#address').val(),
+        image: $('#restImg').val()
+    }
+
+    console.log(newRestaurant)
+    
+    $.ajax({
+        method: 'POST',
+        url: 'https://imhungry-app.herokuapp.com/restaurant',
+        data: JSON.stringify(newRestaurant),
+        contentType: 'application/json',
+        success: function(data){
+            $('#add-form').trigger('reset')
+            alert('Success!')
+        }
+    })
+})

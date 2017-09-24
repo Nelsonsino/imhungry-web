@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>I'm hungry!</title>
+        <link rel="stylesheet" type"text/css" href="css/style.css">
+    </head>
+    <body>
+        <img class="bg-img" src="img/bg-img.png">
+        <nav>
+            <div class="logo"><a href="index.html">I'M HUNGRY</a></div>
+            <ul>
+                <li><a href="about.html#download">下载</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="login.html">登录</a></li>
+                <li><input type=button value="注册账号" class="register" onclick="window.location.href('#')"></li>
+            </ul>
+        </nav>
+        <div id="add-container">
+            <form id="add-form">
+                <label for="name">Restaurant</label>
+                <input id="restName" type="text" name="name">
+                <label for="type">Type</label>
+                <input id="type" type="text" name="cuisine">
+                <label for="address">Address</label>
+                <input id="address" type="text" name="address">
+                <label for="background">Images url</label>
+                <input id="restImg" type="text" name="background">
+                <button id="submit-btn">Submit</button>
+            </form>
+        </div>
+        <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>

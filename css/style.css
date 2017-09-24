@@ -257,3 +257,29 @@ footer div img{
 #bg-img{
     background-color: #EE6363;
 }
+
+#add-form{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#add-form input, #add-form label, #submit-btn{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+#add-form input, #submit-btn{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 50px;
+}
+
+#submit-btn{
+    margin-top: 30px;
+    background-color: #43b3ff;
+}
